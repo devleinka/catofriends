@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/reduxfriends/static/css/main.c30cfbfd.chunk.css",
+    "main.js": "/reduxfriends/static/js/main.e8deda78.chunk.js",
+    "main.js.map": "/reduxfriends/static/js/main.e8deda78.chunk.js.map",
+    "runtime-main.js": "/reduxfriends/static/js/runtime-main.46b71f38.js",
+    "runtime-main.js.map": "/reduxfriends/static/js/runtime-main.46b71f38.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/reduxfriends/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.8462ca26.chunk.js": "/reduxfriends/static/js/2.8462ca26.chunk.js",
+    "static/js/2.8462ca26.chunk.js.map": "/reduxfriends/static/js/2.8462ca26.chunk.js.map",
+    "index.html": "/reduxfriends/index.html",
+    "precache-manifest.bb090ad24a2dafdf6ac8bad8aed0dcaf.js": "/reduxfriends/precache-manifest.bb090ad24a2dafdf6ac8bad8aed0dcaf.js",
+    "service-worker.js": "/reduxfriends/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/reduxfriends/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.c30cfbfd.chunk.css.map": "/reduxfriends/static/css/main.c30cfbfd.chunk.css.map",
+    "static/js/2.8462ca26.chunk.js.LICENSE.txt": "/reduxfriends/static/js/2.8462ca26.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reduxfriends/static/media/SEGA.12a3db8b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46b71f38.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.8462ca26.chunk.js",
+    "static/css/main.c30cfbfd.chunk.css",
+    "static/js/main.e8deda78.chunk.js"
+  ]
+}
