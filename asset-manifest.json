@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reduxfriends/static/css/main.c30cfbfd.chunk.css",
-    "main.js": "/reduxfriends/static/js/main.a250bd74.chunk.js",
-    "main.js.map": "/reduxfriends/static/js/main.a250bd74.chunk.js.map",
+    "main.js": "/reduxfriends/static/js/main.72bdea5b.chunk.js",
+    "main.js.map": "/reduxfriends/static/js/main.72bdea5b.chunk.js.map",
     "runtime-main.js": "/reduxfriends/static/js/runtime-main.46b71f38.js",
     "runtime-main.js.map": "/reduxfriends/static/js/runtime-main.46b71f38.js.map",
     "static/css/2.eb45ad44.chunk.css": "/reduxfriends/static/css/2.eb45ad44.chunk.css",
     "static/js/2.8462ca26.chunk.js": "/reduxfriends/static/js/2.8462ca26.chunk.js",
     "static/js/2.8462ca26.chunk.js.map": "/reduxfriends/static/js/2.8462ca26.chunk.js.map",
     "index.html": "/reduxfriends/index.html",
-    "precache-manifest.2f5744af047cb165c0ce4ff8e2836da8.js": "/reduxfriends/precache-manifest.2f5744af047cb165c0ce4ff8e2836da8.js",
+    "precache-manifest.611dc11b1d6fae738de3a45b158825ba.js": "/reduxfriends/precache-manifest.611dc11b1d6fae738de3a45b158825ba.js",
     "service-worker.js": "/reduxfriends/service-worker.js",
     "static/css/2.eb45ad44.chunk.css.map": "/reduxfriends/static/css/2.eb45ad44.chunk.css.map",
     "static/css/main.c30cfbfd.chunk.css.map": "/reduxfriends/static/css/main.c30cfbfd.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.8462ca26.chunk.js",
     "static/css/main.c30cfbfd.chunk.css",
-    "static/js/main.a250bd74.chunk.js"
+    "static/js/main.72bdea5b.chunk.js"
   ]
 }
