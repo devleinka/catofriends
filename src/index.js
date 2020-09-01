@@ -10,6 +10,14 @@ import * as serviceWorker from './serviceWorker';
 import { searchRobots, requestRobots } from './reducers';
 import 'tachyons';
 
+import TagManager from 'react-gtm-module';
+
+const tagManagerArgs = {
+    gtmId: 'GTM-M3T7TLD'
+}
+
+TagManager.initialize(tagManagerArgs);
+
 const logger = createLogger();
 
 const rootReducer = combineReducers({ searchRobots, requestRobots})
