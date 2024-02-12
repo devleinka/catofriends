@@ -1,26 +1,14 @@
 {
   "files": {
-    "main.css": "/reduxfriends/static/css/main.fb5106ed.chunk.css",
-    "main.js": "/reduxfriends/static/js/main.09696033.chunk.js",
-    "main.js.map": "/reduxfriends/static/js/main.09696033.chunk.js.map",
-    "runtime-main.js": "/reduxfriends/static/js/runtime-main.a1e58264.js",
-    "runtime-main.js.map": "/reduxfriends/static/js/runtime-main.a1e58264.js.map",
-    "static/css/2.3b6f1bda.chunk.css": "/reduxfriends/static/css/2.3b6f1bda.chunk.css",
-    "static/js/2.7acba756.chunk.js": "/reduxfriends/static/js/2.7acba756.chunk.js",
-    "static/js/2.7acba756.chunk.js.map": "/reduxfriends/static/js/2.7acba756.chunk.js.map",
+    "main.css": "/reduxfriends/static/css/main.6a97af89.css",
+    "main.js": "/reduxfriends/static/js/main.b2d36d15.js",
+    "static/media/SEGA.woff": "/reduxfriends/static/media/SEGA.47b4bfa94ef243af4a5b.woff",
     "index.html": "/reduxfriends/index.html",
-    "precache-manifest.ed55dad82659d5dd1a8d9f698508cbbb.js": "/reduxfriends/precache-manifest.ed55dad82659d5dd1a8d9f698508cbbb.js",
-    "service-worker.js": "/reduxfriends/service-worker.js",
-    "static/css/2.3b6f1bda.chunk.css.map": "/reduxfriends/static/css/2.3b6f1bda.chunk.css.map",
-    "static/css/main.fb5106ed.chunk.css.map": "/reduxfriends/static/css/main.fb5106ed.chunk.css.map",
-    "static/js/2.7acba756.chunk.js.LICENSE.txt": "/reduxfriends/static/js/2.7acba756.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/reduxfriends/static/media/SEGA.12a3db8b.woff"
+    "main.6a97af89.css.map": "/reduxfriends/static/css/main.6a97af89.css.map",
+    "main.b2d36d15.js.map": "/reduxfriends/static/js/main.b2d36d15.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1e58264.js",
-    "static/css/2.3b6f1bda.chunk.css",
-    "static/js/2.7acba756.chunk.js",
-    "static/css/main.fb5106ed.chunk.css",
-    "static/js/main.09696033.chunk.js"
+    "static/css/main.6a97af89.css",
+    "static/js/main.b2d36d15.js"
   ]
 }
