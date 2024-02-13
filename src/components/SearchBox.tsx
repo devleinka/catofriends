@@ -1,4 +1,11 @@
-const SearchBox = ({ placeholder, onChangeHandler}) => {
+import { ChangeEventHandler } from "react";
+
+interface ISearchBoxProps {
+    placeholder: string;
+    onChangeHandler: ChangeEventHandler<HTMLInputElement>;
+}
+
+const SearchBox = ({ placeholder, onChangeHandler}: ISearchBoxProps) => {
     return (
         <>
             <div className='pa2'>

@@ -1,17 +1,26 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, ChangeEvent } from 'react';
 import SearchBox from '../components/SearchBox';
 import CardList from '../components/CardList';
 import './App.css';
+import { getData } from '../utils/data.utils'
+
+export interface ICato  {
+    id: string;
+    name: string;
+    email: string;
+}
 
 const App = () => {
     const [searchField, setSearchField] = useState('')
-    const [catos, setCatos] = useState([])
+    const [catos, setCatos] = useState<ICato[]>([])
     const [filteredCatos, setFilteredCatos] = useState(catos)
 
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/users')
-        .then((response) => response.json())
-        .then((users) => setCatos(users))
+        const fetchUsers = async () => {
+            const users = await getData<ICato[]>('https://jsonplaceholder.typicode.com/users')
+            setCatos(users)
+        }
+        fetchUsers()
     }, [])
 
     useEffect(() => {
@@ -21,7 +30,7 @@ const App = () => {
         setFilteredCatos(newFilteredCatos)
     }, [catos, searchField])
 
-    const onSearchChange = (event) => {
+    const onSearchChange = (event: ChangeEvent<HTMLInputElement>): void => {
         const searchFieldString = event.target.value.toLocaleLowerCase()
         setSearchField(searchFieldString)
     }

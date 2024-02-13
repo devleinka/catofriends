@@ -1,6 +1,11 @@
 import Card from './Card';
+import { ICato } from '../containers/App';
 
-const CardList = ({catos}) => {
+interface ICardListProps {
+    catos: ICato[]
+}
+
+const CardList = ({ catos }: ICardListProps) => {
     return (
         <div>
             {
